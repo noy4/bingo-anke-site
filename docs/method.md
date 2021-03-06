@@ -1,202 +1,100 @@
 ---
 id: method
 title: 実験方法
-sidebar_label: 実験方法
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+実験の目的は以下の検証である。
 
-## Markdown Syntax
+- **ビンゴアンケ**の有効性
+- ビンゴアンケにおける**ランキング**の有効性
+- ビンゴアンケにおけるゲーム要素の**回答値への影響**
 
-To serve as an example page when styling markdown based Docusaurus sites.
+以上の検証のために以下 2 つのアンケートを用意した。
 
-## Headers
+1. #### 実験アンケート
+   - 従来型アンケートまたはビンゴアンケを実施するアンケート
+2. #### 評価アンケート
+   - 実験アンケートの**評価**を行うアンケート
 
-# H1 - Create the best documentation
+グループごとの実験アンケート・評価アンケートから得られた回答値の比較により、ビンゴアンケとランキングの有効性、ビンゴアンケにおけるゲーム要素の回答値への影響の検証を試みた。
 
-## H2 - Create the best documentation
+以下は実験参加者の属性である。
 
-### H3 - Create the best documentation
+- 62 人（男性 39 人・女性 23 人）
+- 様々な都道府県の大学に通う学生
+- 20〜23 歳
 
-#### H4 - Create the best documentation
+## グループ分け
 
-##### H5 - Create the best documentation
+ビンゴアンケ・ランキングの有効性を検証すべく、**6 つのグループ**を用意した。6 グループは、**内容**の異なるアンケートを実施する 2 つのグループ、その 2 グループそれぞれの中で**機能**の異なるアンケートを実施する 3 つのグループからなる。被験者は 6 つのグループにランダムに割り当てられた。その結果を以下に示す。
 
-###### H6 - Create the best documentation
+<img src="/static/img/method/1 group.png" width="300" />
 
----
+内容の異なる 2 種のアンケートを実施するのは、ビンゴアンケの有効性の検証のために条件の 1 つとして、ビンゴアンケが**目的や内容が異なる**アンケートの場合にも有効であるかを検証するためである。
 
-## Emphasis
+機能の異なる 3 種のアンケートを実施するのは、**ビンゴ機能、ランキング機能の有無**によって得られる結果を比較するためである。
 
-Emphasis, aka italics, with _asterisks_ or _underscores_.
+### 内容の異なる 2 種のアンケート
 
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
+内容の異なる 2 種のアンケートは以下である。
 
-Combined emphasis with **asterisks and _underscores_**.
+- A. **アンケートについてのアンケート**（以下アンケート A）
+- B. **大学についてのアンケート**（以下アンケート B）
 
-Strikethrough uses two tildes. ~~Scratch this.~~
+アンケート A として「アンケートについてのアンケート」を設定した理由を述べる。大学生は授業評価アンケート、学務からの調査アンケート、友人・学生の調査・実験アンケートなどへの回答を求められる機会が多くあり、**アンケートがとても身近**である。よって学生間のアンケートについての知識量の差が小さく、それによる**回答値の偏りも小さい**と考えたため、「アンケート」をアンケートのテーマに設定し、アンケートを作成した。
 
----
+アンケート B として「大学についてのアンケート」を設定した理由も、**大学が大学生にとって大変身近**であり、知識量の差による**回答値の偏りが小さい**と考えたためである。設問は、内閣府の「我が国と諸外国の若者の意識に関する調査 （平成 30 年度）」から抜粋・改変し、作成した。内閣府の調査から抜粋した理由は、本実験から不可解な結果が得られた際に、内閣府の調査結果と比較して考察できると考えたためである。
 
-## Lists
+### 機能の異なる 3 種のアンケート
 
-1. First ordered list item
-1. Another item
-   - Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-   1. Ordered sub-list
-1. And another item.
+機能の異なる 3 種のアンケートは以下である。
 
-- Unordered list can use asterisks
+1. #### 従来型のアンケート
+1. #### ビンゴアンケ（ランキングなし）
+1. #### ビンゴアンケ（ランキングあり）
 
-* Or minuses
+1 つ目の従来型のアンケートでは各設問下のガラポンボタンは表示されない。よって抽選を行うことができず、ビンゴモーダルも表示されない。また、メニューボタンも表示されない。よってステータスドロワーも表示されない。ビンゴ機能がないので、ビンゴ説明ダイアログも表示されない仕様とした。
 
-- Or pluses
+2 つ目のビンゴアンケ（ランキングなし）は、**ランキングに関わる機能を除いた**ビンゴアンケである。このアンケートでは回答者に順位を公開しない。よってステータスドロワー上部のランキングは表示されず、下部にビンゴカードのみが表示される。また、順位上昇通知も発生しない。
 
----
+3 つ目のビンゴアンケ（ランキングあり）はランキング機能も含めた**通常のビンゴアンケ**である。
 
-## Links
+## 実験アンケート
 
-[I'm an inline-style link](https://www.google.com/)
+実験アンケートでは**全 15 問**の設問を設けた。アンケート A、B それぞれの最初の 4 問は共通で、問は以下である。
+<img src="/static/img/method/2 アンケートA・Bで共通の設問.png" width="300" />
 
-[I'm an inline-style link with title](https://www.google.com/ "Google's Homepage")
+### アンケートについてのアンケート
 
-[I'm a reference-style link][arbitrary case-insensitive reference text]
+アンケート A 固有の設問は以下 11 問である。
 
-[You can use numbers for reference-style link definitions][1]
+<img src="/static/img/method/2_A アンケートA固有の設問.png" width="600" />
 
-Or leave it empty and use the [link text itself].
+### 大学についてのアンケート　
 
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or <http://www.example.com/> and sometimes example.com (but not on GitHub, for example).
+アンケート B 固有の設問は以下 11 問である。
+<img src="/static/img/method/2_B アンケートB固有の設問.png" width="600" />
 
-Some text to show that the reference links can follow later.
+## 評価アンケート
 
-[arbitrary case-insensitive reference text]: https://www.mozilla.org/
-[1]: http://slashdot.org/
-[link text itself]: http://www.reddit.com/
+評価アンケートでは全 11 問の設問を設けた。問は以下である。
+<img src="/static/img/method/3 実験評価アンケート.png" width="600" />
 
----
+各設問の意図について述べる。
 
-## Images
+Q1〜Q4 は実験アンケートに対する感情を直接問う設問である。これにより**直接的に**実験アンケートに対する**評価を得る**狙いである。
 
-Here's our logo (hover to see the title text):
+Q5 は**ビンゴ機能**が有効であると思うかを問う設問である。
 
-Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
+Q6 は**ランキング機能**が有効だと思うかを問う設問である。
 
-Reference-style: ![alt text][logo]
+Q7 は他人に本調査アンケートを勧めるかを問う設問であり、**間接的に**実験アンケートに対する**評価を得る**狙いがある。
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
+Q8 は回答フォームの操作の難易度を問う設問であり、ビンゴ機能があることにより**操作が難しくなってしまわないか**を確かめる狙いがある。
 
-Images from any folder can be used by providing path to file. Path should be relative to markdown file.
+Q9〜Q11 は実験アンケートの良い点・悪い点・その他について自由記述で問う設問である。これにより、実験アンケートに対する**定性的な評価**を得る狙いがある。
 
-![img](../static/img/logo.svg)
+## 実験の流れ
 
----
-
-## Code
-
-```javascript
-var s = 'JavaScript syntax highlighting'
-alert(s)
-```
-
-```python
-s = "Python syntax highlighting"
-print(s)
-```
-
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
-
-```js {2}
-function highlightMe() {
-  console.log('This line can be highlighted!')
-}
-```
-
----
-
-## Tables
-
-Colons can be used to align columns.
-
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
-
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
----
-
-## Blockquotes
-
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
----
-
-## Inline HTML
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
----
-
-## Line Breaks
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
-
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
-
----
-
-## Admonitions
-
-:::note
-
-This is a note
-
-:::
-
-:::tip
-
-This is a tip
-
-:::
-
-:::important
-
-This is important
-
-:::
-
-:::caution
-
-This is a caution
-
-:::
-
-:::warning
-
-This is a warning
-
-:::
+実験の流れを示した図が以下である。
+<img src="/static/img/method/4 フローチャート.png" width="600" />

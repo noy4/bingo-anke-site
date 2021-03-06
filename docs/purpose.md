@@ -1,202 +1,73 @@
 ---
 id: purpose
 title: 目的
-sidebar_label: 目的
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+この研究の目的は、オンライン調査のゲーミフィケーションに関する先行研究の以下 3 つの問題点を解決することである。
 
-## Markdown Syntax
+1. **作成の労力**
+   - ゲーミフィケーションを適用したオンライン調査の作成の労力が非常に大きい。
+2. **回答の質への影響**
+   - ゲーム要素が回答の質を下げる場合がある。
+3. **ランキングの効果が不明**
+   - ランキングがオンライン調査において有効であるかが示されていない。
 
-To serve as an example page when styling markdown based Docusaurus sites.
+## ビンゴアンケの概要と開発の意図
 
-## Headers
+ビンゴアンケは、**ビンゴ**をプレイしながら回答を進められる、設問を挿入するだけでフォームを完成させることが可能な、オンライン調査フォームの**雛形**である。
 
-# H1 - Create the best documentation
+### ビンゴアンケのゲーム要素
 
-## H2 - Create the best documentation
+ビンゴアンケでは各設問の回答後にビンゴの抽選を行うことができ、ビンゴをプレイしながら回答を進められるようになっている。
 
-### H3 - Create the best documentation
+以下のようなゲーム要素が活用されている。
 
-#### H4 - Create the best documentation
+#### 即時フィードバック
 
-##### H5 - Create the best documentation
+- 設問に回答すると抽選を行うためのボタンが赤く色づく
+- そのボタンを押すと抽選が始まる
 
-###### H6 - Create the best documentation
+#### 報酬
 
----
+- 回答すると抽選権が得られる
 
-## Emphasis
+#### ランキング
 
-Emphasis, aka italics, with _asterisks_ or _underscores_.
+- ビンゴ数などによる順位付けにより、他のプレイヤー（回答者）を意識させる
 
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
+#### ビンゴ
 
-Combined emphasis with **asterisks and _underscores_**.
+これらにより、アンケート回答者の回答意欲を向上させ、またアンケートが楽しく回答できるものになることを目指した。
 
-Strikethrough uses two tildes. ~~Scratch this.~~
+活用するゲームとしてビンゴを着想した理由に以下がある。
 
----
+- 設問ごとに報酬を与えられるゲームを検討した際に、回答終了時に**ゲームの総合結果**としてビンゴカードの状態を示すことが可能なビンゴというゲームが適役であると考えたため
+- 先行研究で回答値に有意差を生んだ「アバターを操作して回答する」というような**回答行為そのもの**にゲーム要素を適用されたものとは異なり、**回答後の報酬**としてゲーム要素が活用されることで、ゲーム要素による回答値への影響を免れることが期待されるため
+- ビンゴが**広く知られるゲーム**であり、回答者が仕様の把握に手間取らないと予想されるため
+- 回答者がゲームを体験するために要する行為が、回答後にビンゴの抽選の開始ボタンを押すだけであり、**UI・操作が単純・簡単**だと考えられるため
 
-## Lists
+以上から、ビンゴと調査フォームとの相性は抜群であると考えられる。
 
-1. First ordered list item
-1. Another item
-   - Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-   1. Ordered sub-list
-1. And another item.
+### 雛形である意図
 
-- Unordered list can use asterisks
+ビンゴアンケでは、設問を挿入するだけで調査フォームを完成させられる。これにより以下の利点がある。
 
-* Or minuses
+- ゲーミフィケーションを適用した調査フォームについて、構想を練り、開発するという手順が不要になり、作成の時間と労力が大幅に削減される。
+- アンケート実施者は様々な目的に応じた調査フォームの作成が可能である。
+- ビンゴアンケは先行研究で回答値に影響を与える要因とされたゲーム要素を排除して設計されており、かつ設問のみを挿入して使う雛形であるため、新たなゲーム要素を追加することができないという点で、ゲーム要素による回答値への影響を免れると考えられる。
 
-- Or pluses
+## 実験の目的
 
----
+実験の目的は以下 3 つの項目の検証である。
 
-## Links
+- ビンゴアンケの有効性
+- ビンゴアンケにおけるランキングの有効性
+- ビンゴアンケにおけるゲーム要素の回答値への影響
 
-[I'm an inline-style link](https://www.google.com/)
+ここでいう有効性とは、その活用により従来型アンケートよりも回答者の**回答意欲**が向上したり、アンケートがより**楽しく**回答できるものになることを指す。以上の目的の達成のために、以下 3 条件下での対照実験を行った。
 
-[I'm an inline-style link with title](https://www.google.com/ "Google's Homepage")
+1. 従来型のアンケート
+2. ビンゴアンケ（ランキングなし）
+3. ビンゴアンケ（ランキングあり）
 
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or <http://www.example.com/> and sometimes example.com (but not on GitHub, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org/
-[1]: http://slashdot.org/
-[link text itself]: http://www.reddit.com/
-
----
-
-## Images
-
-Here's our logo (hover to see the title text):
-
-Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
-
-Reference-style: ![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
-
-Images from any folder can be used by providing path to file. Path should be relative to markdown file.
-
-![img](../static/img/logo.svg)
-
----
-
-## Code
-
-```javascript
-var s = 'JavaScript syntax highlighting'
-alert(s)
-```
-
-```python
-s = "Python syntax highlighting"
-print(s)
-```
-
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
-
-```js {2}
-function highlightMe() {
-  console.log('This line can be highlighted!')
-}
-```
-
----
-
-## Tables
-
-Colons can be used to align columns.
-
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
-
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
----
-
-## Blockquotes
-
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
----
-
-## Inline HTML
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
----
-
-## Line Breaks
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
-
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
-
----
-
-## Admonitions
-
-:::note
-
-This is a note
-
-:::
-
-:::tip
-
-This is a tip
-
-:::
-
-:::important
-
-This is important
-
-:::
-
-:::caution
-
-This is a caution
-
-:::
-
-:::warning
-
-This is a warning
-
-:::
+被験者は以上のアンケートのうち 1 つに回答する実験アンケートとその評価を行う評価アンケートに回答した。そこで得たデータから、ビンゴアンケ・ランキングが有効であるか、ゲーム要素が回答値に影響を及ぼしていないかを検証した。

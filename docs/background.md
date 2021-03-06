@@ -9,7 +9,9 @@ slug: /
 
 企業や研究機関による社会調査・研究調査などの調査方式は時代とともに変化している。訪問面接、留置回収、郵便、電話などの変遷を経て、今ではオンライン調査が広く普及している。
 
-オンライン調査の利点として、以前の調査方式と比べ、
+### 利点
+
+以前の調査方式と比べ、
 
 - 回答が**簡単**である
 - 回答データの処理が**迅速**である
@@ -18,81 +20,35 @@ slug: /
 - 調査票の**設計の自由度**が高い
 - 双方向性のある（**インタラクティブ**な）設計が可能
 
-など多くがあげられている。
-
-一方で問題点として、
+### 問題点
 
 - 回答者との**信頼性**の確保が難しい
 - **いい加減・雑な回答**が得られる
 - 回答が**中止**される
 - 回答時の**低い注意力**
 
-などがあげられ、データの質を著しく低下させる要因であるとされている。
+これらはデータの質を著しく**低下**させる要因であるとされている。
 
 ## ゲーミフィケーション
 
+ゲーミフィケーションは「**ゲームの要素をゲーム以外の分野で用いること**」と定義されている。**ビジネス、医療、教育**など様々な分野で活用例があり、**意欲向上**などの点で有効であることが示されている。
+
 ## オンライン調査のゲーミフィケーション
 
-## Blockquotes
-
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
+オンライン調査をより効果的に実施し、回答者に負担をかけず意欲を持って回答してもらうため、また質の高いデータを得るために、オンライン調査のゲーミフィケーションが提案されている。それにより、**回答意欲、回答率、得られるデータの質**などが向上するという事例が報告されている。
 
 ---
 
-## Inline HTML
+## 先行研究の問題点
 
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
+### 作成の労力
 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
+ゲーミフィケーションを適用したオンライン調査の作成の労力が非常に大きい。
 
----
+### 回答の質への影響
 
-## Line Breaks
+ゲーム要素が回答の質を下げる場合がある。
 
-Here's a line for us to start with.
+### ランキングの効果が不明
 
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
-
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
-
----
-
-## Admonitions
-
-:::note
-
-This is a note
-
-:::
-
-:::tip
-
-This is a tip
-
-:::
-
-:::important
-
-This is important
-
-:::
-
-:::caution
-
-This is a caution
-
-:::
-
-:::warning
-
-This is a warning
-
-:::
+ランキングがオンライン調査において有効であるかが示されていない。

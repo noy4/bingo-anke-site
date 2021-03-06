@@ -32,29 +32,37 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: '背景',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: '目的',
+              to: 'docs/purpose/',
+            },
+            {
+              label: 'ビンゴアンケの仕様',
+              to: 'docs/bingo-anke/',
+            },
+            {
+              label: '実験方法',
+              to: 'docs/method/',
+            },
+            {
+              label: '結果・考察',
+              to: 'docs/result/',
+            },
+            {
+              label: 'おわりに',
+              to: 'docs/conclusion/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Naoya Kuwamura',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/kuwappi_',
             },
           ],
         },
@@ -67,12 +75,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/noy4/bingo-anke-site',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Naoya Kuwamura. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Naoya Kuwamura.`,
     },
   },
   presets: [
