@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{81:function(s){s.exports=JSON.parse('{"allTagsPath":"/bingo-anke-site/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/bingo-anke-site/blog/tags/docusaurus"}')}}]);
