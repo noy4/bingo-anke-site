@@ -1,15 +1,12 @@
 module.exports = {
-  docs: [
-    'background',
-    'purpose',
-    'bingo-anke',
-    'method',
-    'result',
-    'conclusion',
-  ],
-
-  // someSidebar: {
-  //   Docusaurus: ['doc1', 'doc2', 'doc3'],
-  //   Features: ['mdx'],
-  // },
+  docs: {
+    ビンゴを活用したオンライン調査のゲーミフィケーション: [
+      'background',
+      'purpose',
+      'bingo-anke',
+      'method',
+      'result',
+      'conclusion',
+    ],
+  },
 }

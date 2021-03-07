@@ -77,6 +77,11 @@ module.exports = {
               label: 'GitHub',
               href: 'https://github.com/noy4/bingo-anke-site',
             },
+            {
+              label: '論文',
+              href:
+                'https://docs.google.com/document/d/1JryB3ZXr5G3Q3fDUuZtLeUyAX5A4bCnYPCwiC-Yfksw/edit?usp=sharing',
+            },
           ],
         },
       ],
@@ -90,14 +95,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/noy4/bingo-anke-site/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl: 'https://github.com/noy4/bingo-anke-site/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
