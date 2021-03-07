@@ -2,30 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://noy4.github.io/blog</id>
     <title>Bingo Anke Blog</title>
-    <updated>2019-05-30T00:00:00.000Z</updated>
+    <updated>2021-03-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://noy4.github.io/blog"/>
     <subtitle>Bingo Anke Blog</subtitle>
     <icon>https://noy4.github.io/img/ball.png</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>welcome</id>
-        <link href="https://noy4.github.io/bingo-anke-site/blog/welcome"/>
-        <updated>2019-05-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello]]></title>
-        <id>hello-world</id>
-        <link href="https://noy4.github.io/bingo-anke-site/blog/hello-world"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hola]]></title>
-        <id>hola</id>
-        <link href="https://noy4.github.io/bingo-anke-site/blog/hola"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+        <title type="html"><![CDATA[学会で発表する]]></title>
+        <id>applied-conference</id>
+        <link href="https://noy4.github.io/bingo-anke-site/blog/applied-conference"/>
+        <updated>2021-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[7 月に NICOGRAPH International 2021（オンライン） にて発表予定]]></summary>
     </entry>
 </feed>

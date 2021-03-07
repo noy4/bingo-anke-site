@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{74:function(n){n.exports=JSON.parse('{"allTagsPath":"/bingo-anke-site/blog/tags","slug":"\u767a\u8868","name":"\u767a\u8868","count":1,"permalink":"/bingo-anke-site/blog/tags/\u767a\u8868"}')}}]);
