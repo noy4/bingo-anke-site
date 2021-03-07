@@ -3,6 +3,8 @@ id: bingo-anke
 title: ビンゴアンケの仕様
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl'
+
 被験者にとってモバイル端末からの実験への参加が簡単だと考えたため、ビンゴアンケは Web アプリケーションとして開発した。
 
 ## 開発環境
@@ -24,15 +26,15 @@ title: ビンゴアンケの仕様
 
 ### 基本画面
 
-<img src="/static/img/spec/2_1_1_基本画面.png" width="200" />
+<img src={useBaseUrl(`img/spec/2_1_1_基本画面.png`)} width="200" />
 
 基本画面はアンケート内容が表示される画面である。
 
 各設問の回答欄の下に「**ガラポンボタン**」を設置した。これはビンゴモーダル（後述）を表示してビンゴの抽選を行うためのボタンである。ガラポンボタンには非アクティブ・アクティブ・使用済みの 3 つの状態を用意した。
 
-<img src="/static/img/spec/2_2_1_非アクティブ.png" width="150" />
-<img src="/static/img/spec/2_2_2_アクティブ.png" width="150" />
-<img src="/static/img/spec/2_2_3_使用済み.png" width="90" />
+<img src={useBaseUrl(`img/spec/2_2_1_非アクティブ.png`)} width="150" />
+<img src={useBaseUrl(`img/spec/2_2_2_アクティブ.png`)} width="150" />
+<img src={useBaseUrl(`img/spec/2_2_3_使用済み.png`)} width="90" />
 
 ガラポンボタンの特徴は以下である。
 
@@ -46,7 +48,7 @@ title: ビンゴアンケの仕様
 
 ### ビンゴモーダル
 
-<img src="/static/img/spec/2_1_2_ビンゴモーダル.png" width="200" />
+<img src={useBaseUrl(`img/spec/2_1_2_ビンゴモーダル.png`)} width="200" />
 
 ビンゴモーダルの特徴は以下である。
 
@@ -57,7 +59,7 @@ title: ビンゴアンケの仕様
 
 ### ステータスドロワー
 
-<img src="/static/img/spec/2_1_3_ステータスドロワー.png" width="200" />
+<img src={useBaseUrl(`img/spec/2_1_3_ステータスドロワー.png`)} width="200" />
 
 ステータスドロワーの特徴は以下である。
 
@@ -66,7 +68,7 @@ title: ビンゴアンケの仕様
 - ビンゴ数、ビンゴカードの当選マスの合計値から算出したスコアをもとに回答者は順位付けられ、ランキングに表示される。
 - ランキングには以下 5 つの項目が表示される。
 
-  <img src="/static/img/spec/2_3_ランキング表示項目_数字.png" width="400" />
+  <img src={useBaseUrl(`img/spec/2_3_ランキング表示項目_数字.png`)} width="400" />
 
   1. 順位
   1. 公開名
@@ -81,14 +83,14 @@ title: ビンゴアンケの仕様
 
 ### プログレスバー
 
-<img src="/static/img/spec/3_1_プログレスバー.png" width="400" />
+<img src={useBaseUrl(`img/spec/3_1_プログレスバー.png`)} width="400" />
 
 - アンケートの進歩状況を視覚的・直感的に表すバー
 - 画面上部に表示される。
 
 ### 通知バー
 
-<img src="/static/img/spec/3_2_通知バー.png" width="400" />
+<img src={useBaseUrl(`img/spec/3_2_通知バー.png`)} width="400" />
 
 - 通知バーは通知が表示されるウィンドウである。
 - 回答者に通知がある際に、画面上部に表示される。
@@ -101,7 +103,7 @@ title: ビンゴアンケの仕様
 
 ### ダイアログボックス
 
-<img src="/static/img/spec/3_3_ダイアログボックス.png" width="200" />
+<img src={useBaseUrl(`img/spec/3_3_ダイアログボックス.png`)} width="200" />
 
 ダイアログボックス（以下ダイアログ）は回答者へのメッセージが表示されるウィンドウである。
 
@@ -129,7 +131,7 @@ title: ビンゴアンケの仕様
 ### 設問
 
 各設問について、基本的に編集可能なのは以下 4 項目である。
-<img src="/static/img/spec/4-1 設問編集可能項目 2.png" width="300" />
+<img src={useBaseUrl(`img/spec/4-1 設問編集可能項目 2.png`)} width="300" />
 
 1. ID
 2. タイトル
@@ -155,7 +157,7 @@ A〜D について、設問タイプを指定するとタイプ名の通りの�
 
 ### ダイアログボックスの表示内容
 
-<img src="/static/img/spec/4-2_各ダイアログボックスにおける編集可能な項目のコピー.png" width="300" />
+<img src={useBaseUrl(`img/spec/4-2_各ダイアログボックスにおける編集可能な項目のコピー.png`)} width="300" />
 
 各ダイアログボックスについて、編集可能なのは以下 2 項目である。
 

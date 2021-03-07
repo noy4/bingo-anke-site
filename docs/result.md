@@ -3,6 +3,8 @@ id: result
 title: 結果・考察
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl'
+
 ## ビンゴアンケの有効性
 
 ### 5 段階評価による分析
@@ -12,16 +14,16 @@ title: 結果・考察
 グループ B3 の回答者のうち 1 名、評価アンケートの回答が得られなかった。放棄した、気づかなかったなどが理由として考えられる。
 
 A1 と A3、B1 と B3 グループの評価アンケートの **5 段階評価の回答値の分布**が以下である。
-<img src="/static/img/result/ev_A1-3.png" width="400" />
+<img src={useBaseUrl(`img/result/ev_A1-3.png`)} width="400" />
 
 <div>
-  <img src="/static/img/result/ev_B1-3.png" width="400" />
+  <img src={useBaseUrl(`img/result/ev_B1-3.png`)} width="400" />
 </div>
 
 A1・A3 それぞれの回答値について Mann-Whitney の U 検定を行ったところ、Q1・6・7 について、有意水準 5%で A3 の回答値の方が A1 のものよりも高いという**有意差が認められた**。各設問の回答値について、A1・A3 それぞれの標本数（N）、平均値（M）、中央値（MD）、標準偏差（SD）、2 標本間の U 値をまとめた表が以下である。
 
-<img src="/static/img/result/U検定_1.png" width="300" />
-<img src="/static/img/result/U検定_2.png" width="300" />
+<img src={useBaseUrl(`img/result/U検定_1.png`)} width="300" />
+<img src={useBaseUrl(`img/result/U検定_2.png`)} width="300" />
 
 アンケート A について、
 
@@ -44,7 +46,7 @@ Q7「本調査アンケートへの回答を他の人にも勧めますか。（
 - Q11「**その他**本調査アンケートについて、または以上回答への補足等何かあればお書きください。」
 
 で得られた回答を種類分けして集計した結果が以下である。
-<img src="/static/img/result/自由記述.png" width="600" />
+<img src={useBaseUrl(`img/result/自由記述.png`)} width="600" />
 
 #### ポジティブな回答
 
@@ -65,8 +67,8 @@ A3・B3 のビンゴアンケ（ランキングあり）について、ビンゴ
 ### 回答率による分析
 
 **従来型アンケート**である A1・B1、**ビンゴアンケ**である A3・B3 のそれぞれの**実験アンケート**の自由記述の**回答率**を示した図が以下である。
-<img src="/static/img/result/A 実験アンケート　回答率.svg" width="400" />
-<img src="/static/img/result/B 実験アンケート　回答率.svg" width="400" />
+<img src={useBaseUrl(`img/result/A 実験アンケート 回答率.svg`)} width="400" />
+<img src={useBaseUrl(`img/result/B 実験アンケート 回答率.svg`)} width="400" />
 
 Q15（
 
@@ -77,8 +79,8 @@ Q15（
 
 ここで、回答に「**特になし**」「**ありがとうございました**」という意図の回答がよく見られた。それらを回答として無効なものとし、除外して集計したものが以下である。
 
-<img src="/static/img/result/A 実験アンケート　有効回答率.svg" width="400" />
-<img src="/static/img/result/B 実験アンケート　有効回答率.svg" width="400" />
+<img src={useBaseUrl(`img/result/A 実験アンケート 有効回答率.svg`)} width="400" />
+<img src={useBaseUrl(`img/result/B 実験アンケート 有効回答率.svg`)} width="400" />
 
 Q15 について、回答率は A3（**20％**）の方が A1（**0％**）よりも高く、B3（**60％**）の方が B1（**18％**）よりも高くなった。よって、自由記述においてビンゴ機能により「特になし」等の回答だけでなく、**有効な回答が得られる確率も上がる**というデータが得られた。この結果は多くの有効な回答が得られるという点でビンゴアンケが有効であることを示している。これは回答データを収集することが主要な目的であるアンケートにおいて、望ましい成果であり重要な貢献である。
 
@@ -88,11 +90,11 @@ Q15 について、回答率は A3（**20％**）の方が A1（**0％**）よ�
 
 A1 と A3、B1 と B3 の実験アンケートの 5 段階評価・数値回答の設問の回答値の分布が以下である。
 
-<img src="/static/img/result/ex_A.png" width="400" />
-<img src="/static/img/result/ex_A_yen.png" width="130" />
-<img src="/static/img/result/ex_A_mon.png" width="130" />
-<img src="/static/img/result/ex_A_fun.png" width="130" />
-<img src="/static/img/result/ex_B.png" width="400" />
+<img src={useBaseUrl(`img/result/ex_A.png`)} width="400" />
+<img src={useBaseUrl(`img/result/ex_A_yen.png`)} width="130" />
+<img src={useBaseUrl(`img/result/ex_A_mon.png`)} width="130" />
+<img src={useBaseUrl(`img/result/ex_A_fun.png`)} width="130" />
+<img src={useBaseUrl(`img/result/ex_B.png`)} width="400" />
 
 A1・A3、B1・B3 それぞれの回答値について Mann-Whitney の U 検定を行ったところ、有意差が認められた設問はなかった。このことから、ビンゴアンケでは**ゲーム要素により回答値に影響を及ぼすことなく**、ゲーム要素を活用したアンケートを実施できる**可能性**がある。
 
@@ -102,9 +104,10 @@ A1・A3、B1・B3 それぞれの回答値について Mann-Whitney の U 検定
 
 A2 と A3、B2 と B3 グループの評価アンケートの 5 段階評価の設問の回答値の分布が以下である。
 
-<img src="/static/img/result/ev_A2-3.png" width="400" />
+<img src={useBaseUrl(`img/result/ev_A2-3.png`)} width="400" />
+
 <div>
-  <img src="/static/img/result/ev_B2-3.png" width="400" />
+  <img src={useBaseUrl(`img/result/ev_B2-3.png`)} width="400" />
 </div>
 
 A2・A3 それぞれの回答値について、また B2・B3 それぞれの回答値について Mann-Whitney の U 検定を行ったが、有意差が認められた設問はなかった。

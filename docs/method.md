@@ -3,6 +3,8 @@ id: method
 title: 実験方法
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl'
+
 実験の目的は以下の検証である。
 
 - **ビンゴアンケ**の有効性
@@ -28,7 +30,7 @@ title: 実験方法
 
 ビンゴアンケ・ランキングの有効性を検証すべく、**6 つのグループ**を用意した。6 グループは、**内容**の異なるアンケートを実施する 2 つのグループ、その 2 グループそれぞれの中で**機能**の異なるアンケートを実施する 3 つのグループからなる。被験者は 6 つのグループにランダムに割り当てられた。その結果を以下に示す。
 
-<img src="/static/img/method/1 group.png" width="300" />
+<img src={useBaseUrl(`img/method/1 group.png`)} width="300" />
 
 内容の異なる 2 種のアンケートを実施するのは、ビンゴアンケの有効性の検証のために条件の 1 つとして、ビンゴアンケが**目的や内容が異なる**アンケートの場合にも有効であるかを検証するためである。
 
@@ -62,23 +64,23 @@ title: 実験方法
 ## 実験アンケート
 
 実験アンケートでは**全 15 問**の設問を設けた。アンケート A、B それぞれの最初の 4 問は共通で、問は以下である。
-<img src="/static/img/method/2 アンケートA・Bで共通の設問.png" width="300" />
+<img src={useBaseUrl(`img/method/2 アンケートA・Bで共通の設問.png`)} width="300" />
 
 ### アンケートについてのアンケート
 
 アンケート A 固有の設問は以下 11 問である。
 
-<img src="/static/img/method/2_A アンケートA固有の設問.png" width="600" />
+<img src={useBaseUrl(`img/method/2_A アンケートA固有の設問.png`)} width="600" />
 
 ### 大学についてのアンケート　
 
 アンケート B 固有の設問は以下 11 問である。
-<img src="/static/img/method/2_B アンケートB固有の設問.png" width="600" />
+<img src={useBaseUrl(`img/method/2_B アンケートB固有の設問.png`)} width="600" />
 
 ## 評価アンケート
 
 評価アンケートでは全 11 問の設問を設けた。問は以下である。
-<img src="/static/img/method/3 実験評価アンケート.png" width="600" />
+<img src={useBaseUrl(`img/method/3 実験評価アンケート.png`)} width="600" />
 
 各設問の意図について述べる。
 
@@ -97,4 +99,4 @@ Q9〜Q11 は実験アンケートの良い点・悪い点・その他につい�
 ## 実験の流れ
 
 実験の流れを示した図が以下である。
-<img src="/static/img/method/4 フローチャート.png" width="600" />
+<img src={useBaseUrl(`img/method/4 フローチャート.png`)} width="600" />

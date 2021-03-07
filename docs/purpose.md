@@ -3,6 +3,8 @@ id: purpose
 title: 目的
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl'
+
 この研究の目的は、オンライン調査のゲーミフィケーションに関する先行研究の以下 3 つの問題点を解決することである。
 
 1. **作成の労力**
@@ -16,7 +18,7 @@ title: 目的
 
 ## ビンゴアンケの概要と開発の意図
 
-<img src="/static/img/spec/0_ビンゴアンケ.png" width="200" />
+<img src={useBaseUrl(`img/spec/0_ビンゴアンケ.png`)} width="200" />
 
 ビンゴアンケは、**ビンゴ**をプレイしながら回答を進められる、設問を挿入するだけでフォームを完成させることが可能な、オンライン調査フォームの**雛形**である。
 
