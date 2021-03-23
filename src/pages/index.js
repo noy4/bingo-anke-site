@@ -1,15 +1,15 @@
-import React from 'react'
-import clsx from 'clsx'
-import Layout from '@theme/Layout'
-import Link from '@docusaurus/Link'
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import useBaseUrl from '@docusaurus/useBaseUrl'
-import styles from './styles.module.css'
-import Poster from '../components/Poster'
+import React from 'react';
+import clsx from 'clsx';
+import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import styles from './styles.module.css';
+import Poster from '../components/Poster';
 
 function Home() {
-  const context = useDocusaurusContext()
-  const { siteConfig = {} } = context
+  const context = useDocusaurusContext();
+  const { siteConfig = {} } = context;
   return (
     <Layout
       // title={siteConfig.title}
@@ -40,10 +40,26 @@ function Home() {
         </div>
       </header>
       <main>
+        <div className={styles.pvSection}>
+          <div className={styles.pvWrapper}>
+            <div className={clsx(styles.pv, 'shadow--tl')}>
+              <iframe
+                className={styles.pvIframe}
+                width="100%"
+                height="auto"
+                src="https://www.youtube.com/embed/9X4abwo3bsI"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
         <Poster />
       </main>
     </Layout>
-  )
+  );
 }
 
-export default Home
+export default Home;
