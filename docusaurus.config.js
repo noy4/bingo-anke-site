@@ -30,7 +30,8 @@ module.exports = {
       },
       {
         property: 'og:image',
-        content: '/bingo-anke-site/img/bingo_anke_logo.png',
+        content:
+          'https://noy4.github.io/bingo-anke-site/img/bingo_anke_logo.png',
       },
     ],
     navbar: {
