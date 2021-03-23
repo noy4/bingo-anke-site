@@ -30,7 +30,7 @@ module.exports = {
       },
       {
         property: 'og:image',
-        content: 'img/bingo_anke_logo.png',
+        content: '/bingo-anke-site/img/bingo_anke_logo.png',
       },
     ],
     navbar: {
