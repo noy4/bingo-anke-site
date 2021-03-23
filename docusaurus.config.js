@@ -9,6 +9,30 @@ module.exports = {
   organizationName: 'noy4', // Usually your GitHub org/user name.
   projectName: 'bingo-anke-site', // Usually your repo name.
   themeConfig: {
+    metadatas: [
+      { name: 'twitter:card', content: 'summary' },
+      {
+        name: 'twitter:site',
+        content: '@kuwappi_',
+      },
+      {
+        property: 'og:url',
+        content: 'https://noy4.github.io/bingo-anke-site/',
+      },
+      {
+        property: 'og:title',
+        content: 'Bingo Anke',
+      },
+      {
+        property: 'og:description',
+        content:
+          'Bingo Anke is a great tool to make an enjoyable online survey.',
+      },
+      {
+        property: 'og:image',
+        content: 'img/bingo_anke_logo.png',
+      },
+    ],
     navbar: {
       title: 'Bingo Anke',
       logo: {
@@ -108,4 +132,4 @@ module.exports = {
       },
     ],
   ],
-}
+};
