@@ -1,7 +1,6 @@
 ---
 id: background
 title: 背景
-slug: /
 ---
 
 ## オンライン調査
