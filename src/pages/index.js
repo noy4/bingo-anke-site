@@ -32,7 +32,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
-              to="https://master.d3efwy5vjd8azj.amplifyapp.com/a-3"
+              to="https://noy4.github.io/bingo-anke2/"
             >
               Get Started
             </Link>
